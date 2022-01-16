@@ -1,0 +1,48 @@
+* {
+    font-family: monospace;
+}
+
+.container {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > * {
+    margin: 1%;
+}
+
+#markdown {
+    width: 100%;
+}
+
+#convert {
+    width: fit-content;
+}
+
+#convert {
+    background-color: green;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#convert:hover {
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.table {
+    width: fit-content
+}
+
+table {
+    text-align: center;
+    width: 25rem;
+}

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../font/Vazir.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 20px 80px 50px;
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+}
+
+#textarea {
+  width: 50%;
+  height: auto;
+  min-height: 500px;
+  resize: vertical;
+  float: left;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#result {
+  width: 50%;
+  height: auto;
+  min-height: 500px;
+  border: 1px solid #333;
+  float: left;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+#submit-btn {
+  all: initial;
+  font-family: "Vazir", sans-serif;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0;
+  background-color: #2d3748;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.json-viewer-object-start {
+  cursor: pointer;
+}
+
+.json-viewer-object-start:before,
+.json-viewer-object-close::after {
+  color: #888888;
+  font-family: arial;
+  width: 1em;
+  cursor: pointer;
+}
+
+.json-viewer-object-start:before {
+  content: "\25bc";
+  display: inline-block;
+  line-height: 1.2rem;
+  font-size: 0.7rem;
+}
+
+.json-viewer-object-close:before {
+  content: "\25ba";
+}
+
+.json-viewer-object-close::after {
+  content: "\2194";
+  margin-left: 2px;
+}
+
+.json-viewer-object-close + ul {
+  display: none;
+}
+
+.json-viewer-object-end {
+  margin-left: 2px;
+}
+
+#result ul:not(:first-child) {
+  padding: 0 0 0 30px;
+  margin-left: 5px;
+  border-left: 1px dotted #888888;
+}
+
+.value-string {
+  color: #690;
+  word-break: break-word;
+}
+
+.value-number {
+  color: #905;
+}
+
+.value-boolean {
+  color: #1c39df;
+}
+
+.has-error {
+  border: 1px solid red;
+}
