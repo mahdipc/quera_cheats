@@ -23,6 +23,3 @@ n = int(input())
 arr = input().split()
 arr = [int(i) for i in arr]
 print(lis(arr, n))
-
-# This code is contributed
-# by Mohit kumar 29
