@@ -1,0 +1,25 @@
+nav {
+    border: 5mm inset white;
+}
+
+a {
+    background-color: darkcyan;
+    color: khaki;
+    box-shadow: 2mm 2mm 1cm white;
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+
+    width: 40px;
+}
+
+p {
+    font-size: 8mm;
+}

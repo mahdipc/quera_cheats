@@ -1,0 +1,19 @@
+:root {
+    --color--body-background: hsl(220, 50%, 5%);
+    --color--body-foreground: hsl(0, 0%, 90%);
+
+    --color--heart-foreground--hover: hsl(345, 100%, 50%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.heart {
+    -webkit-text-stroke: 0.2rem var(--color--body-foreground);
+}

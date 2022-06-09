@@ -1,0 +1,28 @@
+html {
+    font-family: "Merienda"
+}
+
+body {
+    background-color: var(--color--body-background);
+    color: var(--color--body-foreground);
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 4.8rem;
+}
+
+.heart {
+    color: transparent;
+}
+
+.heart:hover {
+    color: var(--color--heart-foreground--hover);
+}
