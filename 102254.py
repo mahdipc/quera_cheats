@@ -1,16 +1,35 @@
-n = input()
-list_n = [int(x) for x in n]
+def compress(code):
+    final = ''
+    final_test = code
+    while(True):
+        d = {}
+        l = []
+        result = []
+        for digit in final_test:
+            l.append(digit)
+            d[digit] = d.get(digit, 0)+1
 
-all_list_n = ["".join(map(str, list_n))]
-while True:
-    dict = {i: list_n.count(i) for i in list_n}
-    list_n = list(dict.keys())
-    for i in dict.values():
-        if i != 1:
-            list_n.append(i)
+        sett = set(l)
 
-    list_n.sort()
-    if "".join(map(str, list_n)) in all_list_n:
-        break
-    all_list_n.append("".join(map(str, list_n)))
-print(all_list_n[-1])
+        r = list(sett)
+        for index in r:
+            ind = d.get(index)
+            if ind >= 2:
+                result.append(str(ind))
+                result.append(index)
+            else:
+                result.append(index)
+
+        result.sort()
+        final_test = ''.join(result)
+        if final == final_test:
+            break
+        else:
+            final = final_test
+
+    return final
+
+
+code = input()
+
+print(compress(code))
