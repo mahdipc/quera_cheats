@@ -1,5 +1,7 @@
+import math
 n = int(input())
-if n % 2 == 0:
+
+if math.log2(n) == math.floor(math.log2(n)) or math.log2(3*(n+1)) == math.floor(math.log2(3*(n+1))):
     print("Yes")
 else:
     print("No")
