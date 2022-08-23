@@ -1,0 +1,30 @@
+bebin azinja() {
+    /* => START DO NOT CHANGE THIS SECTION <= */
+    number1 = 20;
+    number2 = 85;
+    operator = "-";
+    /* => END DO NOT CHANGE THIS SECTION <= */
+    // TODO: see if it's the time to take out trash!
+    // Full Documentation: https://mr-hashemi.github.io/mr-hashemi/
+	  age (operator=="+") bood {  
+        bechap(number1+number2);  
+        } na? {  
+		age (operator=="-") bood {  
+        bechap(number1-number2);  
+        } na? {  
+		age (operator=="*") bood {  
+        bechap(number1*number2);  
+        } na? {  
+		age (operator=="/") bood {  
+        bechap(number1/number2);  
+        } na? {  
+		age (operator=="%") bood {  
+        bechap(number1%number2);  
+        } na? {  
+		bechap(number1+number2); 
+    }
+    }
+    }
+    }
+    } 
+} 

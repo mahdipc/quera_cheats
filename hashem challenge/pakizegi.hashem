@@ -1,0 +1,17 @@
+bebin azinja() {
+    /* => START DO NOT CHANGE THIS SECTION <= */
+    saat = 19;
+    daghighe = 38;
+    /* => END DO NOT CHANGE THIS SECTION <= */
+    // TODO: see if it's the time to take out trash!
+    // Full Documentation: https://mr-hashemi.github.io/mr-hashemi/
+   age (saat*60+daghighe==1260) bood {  
+	bechap("alan vaghteshe");  
+	} na? { 
+	  age (saat*60+daghighe<1260) bood {  
+        bechap("alan zoode");  
+        } na? {  
+        bechap("dige dire");  
+    } 
+    }
+} 

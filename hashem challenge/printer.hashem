@@ -1,0 +1,16 @@
+bebin azinja() {
+    /* => START DO NOT CHANGE THIS SECTION <= */
+    n = 5;
+    /* => END DO NOT CHANGE THIS SECTION <= */
+    // TODO: see if it's the time to take out trash!
+    // Full Documentation: https://mr-hashemi.github.io/mr-hashemi/
+	adadeMan = 1;  
+	majmoo = "*";  
+	  
+	ta (adadeMan<=n) bood {  
+		bechap(majmoo); 
+		majmoo = majmoo + "*";  
+		adadeMan =adadeMan + 1;  
+	}  
+	  
+} 
