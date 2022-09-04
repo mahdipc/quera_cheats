@@ -2,8 +2,11 @@ import numpy as np
 n = int(input())
 a = input().split()
 a = np.array(a, dtype=np.int)
-S = np.sum(a)
-if n > 1000:
-    print(0)
-else:
-    print(S)
+sum = 0
+sub = 0
+for i in range(n):
+    sum -= a[i]
+    if sum < 0:
+        sub += abs(sum)
+        sum = 0
+print(sub)
