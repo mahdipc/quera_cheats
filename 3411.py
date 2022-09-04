@@ -1,8 +1,16 @@
-import math
-n = int(input())
-s = str(math.factorial(n))
+dig = [1, 1, 2, 6, 4, 2, 2, 4, 2, 8]
 
-for i in range(len(s), 0, -1):
-    if s[i-1] != '0':
-        print(s[i-1])
-        break
+
+def lastNon0Digit(n):
+    if (n < 10):
+        return dig[n]
+
+    if (((n//10) % 10) % 2 == 0):
+        return (6*lastNon0Digit(n//5)*dig[n % 10]) % 10
+    else:
+        return (4*lastNon0Digit(n//5)*dig[n % 10]) % 10
+
+
+n = int(input())
+
+print(lastNon0Digit(n))
