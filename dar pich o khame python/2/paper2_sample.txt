@@ -1,0 +1,18 @@
+TITLE
+This is the title.
+ABSTRACT
+This is the abstract.
+KEYWORDS
+are,keywords,the,these
+INTRODUCTION
+This is the introduction.
+BODY
+This is the body.
+CONCLUSION
+This is the conclusion.
+REFERENCES
+[1] SAliB, "A book," pp. 1–12, 2020.
+[2] Sajjad, "Another book," pp. 619–630, 2005.
+
+
+

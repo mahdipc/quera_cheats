@@ -1,0 +1,39 @@
+TITLE
+Lorem ipsum dolor sit amet
+ABSTRACT
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nam volutpat tincidunt leo maximus varius. Mauris sagittis, 
+orci in tincidunt semper, risus enim vehicula quam, vel blandit 
+eros quam vehicula sapien. Phasellus non libero scelerisque,
+eleifend velit posuere, placerat elit. Sed sagittis eget
+purus et vehicula.
+KEYWORDS
+vehicula,placerat,dolor,semper,amet,sagittis
+INTRODUCTION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nam volutpat tincidunt leo maximus varius. Mauris sagittis, 
+orci in tincidunt semper, risus enim vehicula quam, vel blandit 
+eros quam vehicula sapien. Phasellus non libero scelerisque,
+eleifend velit posuere, placerat elit. Sed sagittis eget
+purus et vehicula.
+BODY
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nam volutpat tincidunt leo maximus varius. Mauris sagittis, 
+orci in tincidunt semper, risus enim vehicula quam, vel blandit 
+eros quam vehicula sapien. Phasellus non libero scelerisque,
+eleifend velit posuere, placerat elit. Sed sagittis eget
+purus et vehicula.
+CONCLUSION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nam volutpat tincidunt leo maximus varius. Mauris sagittis, 
+orci in tincidunt semper, risus enim vehicula quam, vel blandit 
+eros quam vehicula sapien. Phasellus non libero scelerisque,
+eleifend velit posuere, placerat elit. Sed sagittis eget
+purus et vehicula.
+REFERENCES
+[1] M. A. Rahman, "A deep learning framework for football match prediction," SN Appl. Sci., vol. 2, no. 2, pp. 1–12, 2020.
+[2] A. P. Rotshtein, "Football predictions based on a fuzzy model," Cybern. Syst. Anal., vol. 41, no. 4, pp. 619–630, 2005.
+[3] G. Angelini and L. De Angelis, "PARX model for football match predictions," J. Forecast., vol. 36, no. 7, pp. 795–807, 2017.
+
+
+
