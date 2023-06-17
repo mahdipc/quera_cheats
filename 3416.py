@@ -1,48 +1,39 @@
 
-
 n = int(input())
-
-
-def comprese(st):
-    res = []
-    st += "."
-    cou = 1
-    for i in range(len(st)-1):
-        if st[i+1] == st[i]:
-            cou += 1
-        else:
-            res.append(st[i])
-            if cou != 1:
-                res.append(str(cou))
-
-            cou = 1
-
-    return res
-
-
-def decomprese(st):
-    ou = []
-    nums = '0123456789'
-    s = ""
-    res = []
-    for element in st:
-        if element not in nums:
-            if s != "":
-                ou.append(res[-1]*(int(s)-1))
-            res.append(element)
-            ou.append(res[-1])
-            s = ""
-        else:
-            s += element
-    return ou
-
-
 for i in range(n):
-    t = int(input())
-    cod = input()
-
-    if t == 1:
-        s = comprese(cod)
-    elif t == 2:
-        s = decomprese(cod)
-    print(''.join(s))
+    if int(input()) == 1:
+        s = input()
+        c = s[0]
+        co = 1
+        for j in range(1, len(s)):
+            if s[j] != s[j - 1]:
+                print(s[j - 1], end='')
+                if co > 1:
+                    print(co, end='')
+                co = 1
+            else:
+                co += 1
+        print(s[len(s) - 1], end='')
+        if co > 1:
+            print(co)
+        else:
+            print("")
+    else:
+        s = input()
+        t = 0
+        c = ''
+        ind = 0
+        while t != len(s):
+            c = s[t]
+            ind = t + 1
+            num = ""
+            while ind < len(s) and s[ind].isdigit():
+                num += s[ind]
+                ind += 1
+            if num == "":
+                print(c, end='')
+            else:
+                for k in range(int(num)):
+                    print(c, end='')
+            t = ind
+        print("")
