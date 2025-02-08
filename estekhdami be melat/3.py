@@ -1,12 +1,11 @@
-n, q = input().split()
-n, q = int(n), int(q)
-s = input()
+n, q = map(int, input().split())
+s = bytearray(input().strip(), "ascii")
 
-for i in range(q):
-    st = input().split()
-    if st[0] == "?":
-        t = st[1]
-        print("YES" if t in s else "NO")
+for _ in range(q):
+    query = input().split()
+
+    if query[0] == "?":
+        print("YES" if query[1].encode() in s else "NO")
     else:
-        k = int(st[1]) - 1
-        s = s[:k] + ("1" if s[k] == "0" else "0") + s[k + 1 :]
+        k = int(query[1]) - 1
+        s[k] ^= 1
